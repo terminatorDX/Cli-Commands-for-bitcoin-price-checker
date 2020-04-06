@@ -1,4 +1,4 @@
-# Coindex CLI
+# chetan CLI
 
 Command line interface written in Node.js to check cryptocurrency prices
 
@@ -16,24 +16,24 @@ npm link
 
 ```
 # Help & Commands
-coindex -h
+chetan -h
 
 # Version
-coindex -V
+chetan -V
 
 # API Key Commands
-coindex key set
-coindex key show
-coindex key remove
+chetan key set
+chetan key show
+chetan key remove
 
 # Crypto Check Commands
-coindex check price
+chetan check price
 
 # Check Specific Coins (default: BTN,ETH,XRP)
-coindex check --coin=BTC,ETH
+chetan check --coin=BTC,ETH
 
 # Choose Currency (Default: USD)
-coindex check --cur=EUR
+chetan check --cur=EUR
 ```
 
 ### Version
